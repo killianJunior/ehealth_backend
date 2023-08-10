@@ -29,7 +29,7 @@ app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: true}));
 
 //Routes
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.json({
         title:"E-Health Test Case",
         message: "Killian's Express test application"
