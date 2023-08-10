@@ -11,7 +11,9 @@ const app = express();
 app.options('*', cors())
 
 var corsOptions = {
-    origin: "https://ehealth-vue-test.vercel.app"
+    // origin: ["https://ehealth-vue-test.vercel.app", "https://ehealth-backend.vercel.app/api"]
+    origin: "*"
+
 };
 
 //allow cross origin request
