@@ -2,7 +2,7 @@
   "name": "ehealth_backend",
   "version": "1.0.0",
   "description": " backend for ehealth assignment",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "16.x"
   },
